@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            To-Do List
+        </div>
+        <div class="input">
+            <span><input id="inp" type="text" placeholder="Item Name"></span>
+            <span> <input id="deadline" type="date" placeholder="Deadline"> </span>
+            <span><select  name="dog-names" id="importance">
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+            </span>
+            <span><button id="add">Add Item</button></span>
+        </div>
+        <div class="today">
+            <div>
+                <h5>Today's TodoList</h5>
+            </div>
+            
+        </div>
+        <div class="future">
+            <div>
+                <h5>Future TodoList</h5>
+            </div>
+            <div class="info">
+                <div>
+                    <span class="count">1. </span><span>Acciojobs Assingment</span>
+                </div>
+                <div class="data">12-02-2023</div>
+                <div>Priority: <span class="priority">High</span></div>
+                <div class="last">
+                    <span class="mark"><i class="fa-regular fa-square-check"></i></span>
+                    <span class="delete"><i class="fa-solid fa-trash"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="completed">
+            <div>
+                <h5>Completed TodoList</h5>
+            </div>
+            <div class="info">
+                <div>
+                    <span class="count">1. </span><span>Acciojobs Assingment</span>
+                </div>
+                <div class="data">12-02-2023</div>
+                <div>Priority: <span class="priority">High</span></div>
+                <div class="last">
+                    <span class="mark"><i class="fa-regular fa-square-check"></i></span>
+                    <span class="delete"><i class="fa-solid fa-trash"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

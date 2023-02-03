@@ -1,0 +1,78 @@
+.container{
+    width: 95vw;
+    margin: auto;
+    /* border: 2px solid black; */
+    padding: 15px 15px;
+}
+
+h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.last{
+   display: flex;
+   width: 50px;
+   justify-content: space-around;
+}
+
+.heading{
+    font-style: normal;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    width: 95vw;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.input{
+    margin-bottom: 5px;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    /* border: 2px solid black; */
+}
+
+input, select{
+    height: 30px;
+    width: 300px;
+}
+
+button{
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+.today, .future, .completed{
+    width: 95vw;
+    /* border: 2px solid black; */
+}
+
+.info{
+    display: flex;
+    width: 94vw;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+.completed .info{
+    color: rgb(87, 86, 86);
+    background-color: white;
+    border-color: grey;
+}
+
+i:hover{
+    color: blue;
+}
+
